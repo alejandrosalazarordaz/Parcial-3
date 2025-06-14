@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wiki Comunicación - Inicio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="Mockup 01.css" />
+  <style>
+    .buscador-centrado {
+      text-align: center;
+      margin: 2rem auto;
+    }
+    .buscador-centrado input[type="text"] {
+      padding: 0.6rem;
+      width: 250px;
+      max-width: 80%;
+      border: 1px solid #ccc;
+      border-radius: 8px 0 0 8px;
+      font-family: 'Open Sans', sans-serif;
+    }
+    .buscador-centrado button {
+      padding: 0.6rem 1rem;
+      border: none;
+      background-color: #0077cc;
+      color: white;
+      border-radius: 0 8px 8px 0;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .buscador-centrado button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Wiki Comunicación</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Articulos.html">Artículos</a></li>
+        <li><a href="Foros.html">Foro</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Bienvenido a tu espacio de aprendizaje</h1>
+    <p>Explora recursos esenciales para tus primeros ciclos en la carrera de Comunicación.</p>
+
+    <!-- Buscador centrado -->
+    <form class="buscador-centrado" action="Articulos.html" method="get">
+      <input type="text" name="q" placeholder="Buscar en la wiki..." />
+      <button type="submit">🔍</button>
+    </form>
+
+    <div style="margin: 2rem auto; text-align: center;">
+      <iframe
+        width="360"
+        height="640"
+        src="https://www.youtube.com/embed/3kPTjoZxUj0?si=UVZB0NPFV7iWK0JO"
+        title="Video vertical"
+        frameborder="0"
+        allowfullscreen
+        style="border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1);"
+      ></iframe>
+    </div>
+
+    <a href="articulos.html" class="boton">Explorar Wiki</a>
+  </div>
+
+  <section class="contenido">
+    <h2>Artículos destacados</h2>
+    <p>
+      Desde teoría de la comunicación hasta herramientas digitales: aquí encuentras lo que necesitas para destacar desde el primer semestre.
+    </p>
+    <p><a href="articulos.html" class="boton">Ver más</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Wiki Comunicación | UVM</p>
+  </footer>
+</body>
+</html>
+

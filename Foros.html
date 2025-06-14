@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wiki Comunicación - Foro</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Open Sans", sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #003366;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 800;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #aaddff;
+    }
+
+    main.contenido {
+      padding: 3rem 2rem 4rem;
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.07);
+    }
+
+    h1 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 800;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #003366;
+      text-align: center;
+    }
+
+    p.intro {
+      font-size: 1.1rem;
+      margin-bottom: 2.5rem;
+      color: #555;
+      text-align: center;
+    }
+
+    section article {
+      background-color: #f0f4fb;
+      border-left: 6px solid #0055aa;
+      padding: 1.8rem 2rem;
+      margin-bottom: 2.8rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 85, 170, 0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    section article:hover {
+      background-color: #e6f0ff;
+    }
+
+    section article h2 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      margin-bottom: 0.7rem;
+      color: #003366;
+    }
+
+    section article p {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 1rem;
+    }
+
+    .boton {
+      display: inline-block;
+      background-color: #0055aa;
+      color: #fff;
+      padding: 0.7rem 1.4rem;
+      border: none;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .boton:hover {
+      background-color: #003f7f;
+    }
+
+    .volver-arriba {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    footer {
+      background-color: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 1.2rem 1rem;
+      margin-top: 5rem;
+      font-size: 0.9rem;
+      letter-spacing: 0.5px;
+      user-select: none;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 1rem 1.2rem;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      main.contenido {
+        padding: 2rem 1rem 3rem;
+        margin: 1rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Wiki Comunicación</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Articulos.html">Artículos</a></li>
+        <li><a href="Foros.html">Foro</a></li> 
+        <li><a href="Contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contenido">
+    <h1>Foro de Discusión</h1>
+    <p class="intro">
+      Bienvenido al espacio de interacción para estudiantes de Comunicación. Aquí podrás compartir conocimientos, resolver dudas y debatir sobre temas
+      relevantes a tu formación académica y práctica profesional. ¡Participa y enriquece tu aprendizaje colaborativo!
+    </p>
+
+    <section>
+      <article>
+        <h2>📢 Tema: ¿Cuál fue tu primer acercamiento a la teoría de la comunicación?</h2>
+        <p>
+          En este tema, te invitamos a contar tus primeras experiencias con los conceptos básicos de la comunicación. ¿Qué te llamó la atención? ¿Tuviste dificultades
+          para comprender algún concepto? Compartamos para apoyarnos en el aprendizaje.
+        </p>
+        <a href="#" class="boton">Responder</a>
+      </article>
+
+      <article>
+        <h2>🎙 Tema: Recomendaciones para grabar tu primer podcast</h2>
+        <p>
+          Explora técnicas, herramientas y consejos para crear contenido de audio atractivo. Desde la planificación hasta la edición, este foro es el lugar ideal para aprender y compartir recursos.
+        </p>
+        <a href="#" class="boton">Responder</a>
+      </article>
+
+      <article>
+        <h2>💻 Tema: ¿Vale la pena aprender a usar Canva desde el primer semestre?</h2>
+        <p>
+          Analiza la utilidad de las herramientas gráficas en la carrera. Comparte tus opiniones y experiencias sobre cómo Canva y otras aplicaciones pueden ayudarte a destacar
+          en presentaciones y proyectos.
+        </p>
+        <a href="#" class="boton">Responder</a>
+      </article>
+    </section>
+
+    <div class="volver-arriba">
+      <button onclick="scrollToTop()" class="boton">🔝 Volver arriba</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wiki Comunicación | UVM</p>
+  </footer>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  </script>
+</body>
+</html>
